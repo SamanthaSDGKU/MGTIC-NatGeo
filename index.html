@@ -11,44 +11,56 @@
     
 </head>
 <body>
-    <nav>
-        <img src="img/ng-logo-2fl.webp" alt="este es el logo">
-        <img src="img/ng-border.png" alt="border">
-        <a href="#">Login</a>
-        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-        <a href="#">Newsletters</a>
-        <a href="#">Subscribe</a>
-        <a href="#">Menu</a>
-        <a href="#"><i class="fa-solid fa-angles-down"></i></a>
+    <nav class="menu">
+        <img class="logo" src="img/ng-logo-2fl.webp" alt="este es el logo">
+        <img class="logo-border" src="img/ng-border.png" alt="border">
+        
+        <div>
+            <a class="link-login" href="#">Login</a>
+            <a class="link-search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a class="link-news" href="#">Newsletters</a>
+            <a class="link-subs" href="#">Subscribe</a>
+            <a class="link-menu" href="#">Menu</a>
+            <a class="link-angle" href="#"><i class="fa-solid fa-angles-down"></i></a>
+        </div>
     </nav>
 
     <header>
         <h1>Latest Stories</h1>
         <!--comentario-->
         <p>Subscribe for full access to read stories from National Geographic.</p>
+        <div class="borde"></div>
     </header>
     
     <main>
         <div>
-            <div>
-                <img src="img/reina.avif" alt="queen">
-                <h3>History Magazine</h3>
-                <p>Decoded secret letters reveal plot against Queen Elizabeth</p>
-                <a href="#"><i class="fa-solid fa-bars"></i> Read</a>
-            </div><!--div queen-->
+            <div class="main-news">
+                <img class="img-queen" src="img/reina.avif" alt="queen">
+                <div class="main-news-text">
+                    <h3>History Magazine</h3>
+                    <p>Decoded secret letters reveal plot against Queen Elizabeth</p>
+                    <a class="read-btn" href="#"><i class="fa-solid fa-bars"></i> Read</a>
+                </div><!--.main-news-text-->
+            </div><!--.main-news-->
 
-            <div>
-                <img src="img/slaves.avif" alt="slaves">
-                <h3>Magazine</h3>
-                <p>America's last slave ship stole them from home. It couldn't steal their identities.</p>
-                <a href="#"> <i class="fa-solid fa-bars"></i> Read</a>
+            <div class="secondary-news">
+                <img class="img-slaves" src="img/slaves.avif" alt="slaves">
+                <div class="secondary-news-text">
+                    <h3>Magazine</h3>
+                    <p>America's last slave ship stole them from home. It couldn't steal their identities.</p>
+                    <a class="read-btn" href="#"> <i class="fa-solid fa-bars"></i> Read</a>
+                </div>
+                
             </div><!-- div slaves-->
 
-            <div>
-                <img src="img/elefantes.jpg" alt="Elefante">
-                <h3>Animals</h3>
-                <p>What drives elephant poaching?  It's not greed</p>
-                <a href="#"><i class="fa-solid fa-bars"></i> Read</a>
+            <div class="secondary-news">
+                <img class="img-elephant" src="img/elefantes.jpg" alt="Elefante">
+                <div class="secondary-news-text">
+                    <h3>Animals</h3>
+                    <p>What drives elephant poaching?  It's not greed</p>
+                    <a class="read-btn" href="#"><i class="fa-solid fa-bars"></i> Read</a>
+                </div>
+                
             </div><!--div elefante-->
 
         </div><!--agrupa las noticias-->
